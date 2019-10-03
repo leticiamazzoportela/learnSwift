@@ -14,6 +14,7 @@
 		F3FDF621234507FC001556C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FDF61F234507FC001556C4 /* LaunchScreen.storyboard */; };
 		F3FDF62C234507FC001556C4 /* buginhoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDF62B234507FC001556C4 /* buginhoTests.swift */; };
 		F3FDF637234507FC001556C4 /* buginhoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDF636234507FC001556C4 /* buginhoUITests.swift */; };
+		F3FDF6452345186F001556C4 /* DoceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDF6442345186F001556C4 /* DoceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F3FDF632234507FC001556C4 /* buginhoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buginhoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FDF636234507FC001556C4 /* buginhoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buginhoUITests.swift; sourceTree = "<group>"; };
 		F3FDF638234507FC001556C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FDF6442345186F001556C4 /* DoceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F3FDF61D234507FC001556C4 /* Assets.xcassets */,
 				F3FDF61F234507FC001556C4 /* LaunchScreen.storyboard */,
 				F3FDF622234507FC001556C4 /* Info.plist */,
+				F3FDF6442345186F001556C4 /* DoceViewController.swift */,
 			);
 			path = buginho;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3FDF619234507FB001556C4 /* ViewController.swift in Sources */,
+				F3FDF6452345186F001556C4 /* DoceViewController.swift in Sources */,
 				F3FDF617234507FB001556C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

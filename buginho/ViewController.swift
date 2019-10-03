@@ -9,12 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var controller: DoceViewController?
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        controller = self.storyboard?.instantiateViewController(withIdentifier: "doceNav") as? DoceViewController
     }
-
-
+    
+    @IBAction func showCracker() {
+        controller?.tipo = 1
+        self.navigationController?.pushViewController(controller!, animated: true)
+    }
+    
+    @IBAction func showCookie() {
+        controller?.tipo = 2
+        self.navigationController?.pushViewController(controller!, animated: true)
+    }
+    
 }
 
