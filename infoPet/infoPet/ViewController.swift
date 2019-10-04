@@ -35,6 +35,16 @@ class ViewController: UIViewController {
         controller?.carregaDados(per: perfil)
         self.navigationController?.pushViewController(controller!, animated: true)        
     }
+    
+    
+    @IBAction func adicionar(_ sender: Any) {
+        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "dialog") as? ViewDialogAddController {
+            controller.view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
+            controller.modalPresentationStyle = .overFullScreen
+            controller.modalTransitionStyle = .crossDissolve
+            self.navigationController?.present(controller, animated: true, completion: nil)
+        }
+    }
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {

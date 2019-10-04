@@ -17,6 +17,7 @@
 		F34179DF2347910E0069CD74 /* ViewEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34179DE2347910E0069CD74 /* ViewEditController.swift */; };
 		F37E8A4E2347B8E10045A6F1 /* Protocolos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E8A4D2347B8E10045A6F1 /* Protocolos.swift */; };
 		F37E8A522347C0080045A6F1 /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E8A512347C0080045A6F1 /* Perfil.swift */; };
+		F37E8A542347E1730045A6F1 /* ViewDialogAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E8A532347E1730045A6F1 /* ViewDialogAddController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F34179DE2347910E0069CD74 /* ViewEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEditController.swift; sourceTree = "<group>"; };
 		F37E8A4D2347B8E10045A6F1 /* Protocolos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocolos.swift; sourceTree = "<group>"; };
 		F37E8A512347C0080045A6F1 /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
+		F37E8A532347E1730045A6F1 /* ViewDialogAddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDialogAddController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				F34179DE2347910E0069CD74 /* ViewEditController.swift */,
 				F37E8A4D2347B8E10045A6F1 /* Protocolos.swift */,
 				F37E8A512347C0080045A6F1 /* Perfil.swift */,
+				F37E8A532347E1730045A6F1 /* ViewDialogAddController.swift */,
 			);
 			path = infoPet;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37E8A542347E1730045A6F1 /* ViewDialogAddController.swift in Sources */,
 				F34179DF2347910E0069CD74 /* ViewEditController.swift in Sources */,
 				F37E8A522347C0080045A6F1 /* Perfil.swift in Sources */,
 				F37E8A4E2347B8E10045A6F1 /* Protocolos.swift in Sources */,
