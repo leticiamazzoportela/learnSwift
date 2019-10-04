@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewEditController.carregaDados(per:):ViewEditController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nomeField">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewEditController.viewDidLoad():ViewEditController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "generoSelecionado">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.editar(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.storyboard?.instantiateViewController(withIdentifier: &quot;editNav&quot;) as? ViewEditController">
+            </PersistentString>
+            <PersistentString
+               value = " self.storyboard">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
