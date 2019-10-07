@@ -16,3 +16,7 @@ protocol EdicaoPerfil {
 protocol DadosIniciais {
     func carregaDados(per: Perfil)
 }
+
+protocol AddAtividade {
+    func addAtividade(atv: Atividades)
+}

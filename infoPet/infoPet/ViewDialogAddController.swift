@@ -14,6 +14,7 @@ class ViewDialogAddController: UIViewController {
     @IBOutlet weak var viewPink: UIView!
     @IBOutlet weak var tituloField: UITextField!
     @IBOutlet weak var descView: UITextView!
+    var delegate: AddAtividade?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +24,9 @@ class ViewDialogAddController: UIViewController {
     
     
     @IBAction func salvar(_ sender: Any) {
+        let ativi = Atividades(titulo: tituloField.text!, desc: descView.text!)
+        delegate?.addAtividade(atv: ativi)
+        self.dismiss(animated: true, completion: nil)
     }
     
     

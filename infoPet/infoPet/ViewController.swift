@@ -42,6 +42,7 @@ class ViewController: UIViewController {
             controller.view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
             controller.modalPresentationStyle = .overFullScreen
             controller.modalTransitionStyle = .crossDissolve
+            controller.delegate = self
             self.navigationController?.present(controller, animated: true, completion: nil)
         }
     }
@@ -67,5 +68,13 @@ extension ViewController: EdicaoPerfil {
         nomeLabel.text = per.nome
         idadeLabel.text = per.idade
         generoLabel.text = per.genero
+    }
+}
+
+extension ViewController: AddAtividade {
+    func addAtividade(atv: Atividades) {
+        let param = Atividades(titulo: atv.titulo, desc: atv.desc)
+        add(atv: param)
+        tableView.reloadData()
     }
 }
