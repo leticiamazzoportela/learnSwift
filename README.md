@@ -10,3 +10,5 @@ outra imagem.
 2) **infoPet**: Neste projeto foram trabalhados conceitos como transição entre telas, carregamento de conteúdos de uma tela para outra,
 tabela dinâmica, edição e adição de informações. Para isso, foi desenvolvido um projeto em que é possível editar as informações de um animal, adicionar e listar
 as atividades desempenhadas pelo animal.
+
+3) **practiceLayout**: Projeto simples para praticar elementos do layout no Xcode.
