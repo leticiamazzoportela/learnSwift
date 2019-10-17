@@ -17,6 +17,18 @@ class ViewController: UIViewController {
         missoes.append(Missao(hora: "18:30", desc: "Crianças salvas no cinema"))
         missoes.append(Missao(hora: "22:00", desc: "Meteóro evitado"))
         missoes.append(Missao(hora: "23:55", desc: "Roubo no museu"))
+        missoes.append(Missao(hora: "18:30", desc: "Crianças salvas no cinema"))
+        missoes.append(Missao(hora: "22:00", desc: "Meteóro evitado"))
+        missoes.append(Missao(hora: "23:55", desc: "Roubo no museu"))
+        missoes.append(Missao(hora: "18:30", desc: "Crianças salvas no cinema"))
+        missoes.append(Missao(hora: "22:00", desc: "Meteóro evitado"))
+        missoes.append(Missao(hora: "23:55", desc: "Roubo no museu"))
+        missoes.append(Missao(hora: "18:30", desc: "Crianças salvas no cinema"))
+        missoes.append(Missao(hora: "22:00", desc: "Meteóro evitado"))
+        missoes.append(Missao(hora: "23:55", desc: "Roubo no museu"))
+        missoes.append(Missao(hora: "18:30", desc: "Crianças salvas no cinema"))
+        missoes.append(Missao(hora: "22:00", desc: "Meteóro evitado"))
+        missoes.append(Missao(hora: "23:55", desc: "Roubo no museu"))
     }
 }
 
